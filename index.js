@@ -3,7 +3,7 @@ console.log("JS Started");
 
 const doors = document.querySelectorAll(".door-link");
 const today = new Date().getDate();
-const COLOR = "#f0f1f3";
+const COLOR = "#c2c7d0";
 const BACKGROUND_COLOR = "#161b25";
 
 doors.forEach((door) => {
