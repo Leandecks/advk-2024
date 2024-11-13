@@ -1,14 +1,16 @@
 "use strict";
 console.log("JS Started");
 
-const doors = document.querySelectorAll('.door-link');
+const doors = document.querySelectorAll(".door-link");
 const today = new Date().getDate();
-const PRIME = "rgb(65, 131, 189)";
-const SECOND = "whitesmoke";
+const COLOR = "#f0f1f3";
+const BACKGROUND_COLOR = "#161b25";
 
 doors.forEach((door) => {
   if (door.textContent <= today) {
-    door.classList.toggle("open");
+    door.style.color = BACKGROUND_COLOR;
+    door.style.backgroundColor = COLOR;
+    door.style.borderRadius = "1rem";
   } else {
     door.setAttribute("href", "#");
   }

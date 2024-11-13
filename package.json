@@ -1,0 +1,15 @@
+{
+  "name": "advk-2024",
+  "version": "2.0.0",
+  "description": "Every day until christmas a nice quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leandecks",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
