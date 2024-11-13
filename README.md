@@ -1,3 +1,3 @@
-## advk
+## advk 2.0
 
-Every until christmas a nice quiz
+Every day until christmas a nice quiz
