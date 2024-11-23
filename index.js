@@ -1,5 +1,4 @@
 "use strict";
-console.log("JS Started");
 
 const doors = document.querySelectorAll(".door-link");
 const today = new Date().getDate();
@@ -10,7 +9,7 @@ doors.forEach((door) => {
   if (door.textContent <= today) {
     door.style.color = BACKGROUND_COLOR;
     door.style.backgroundColor = COLOR;
-    door.style.borderRadius = "1rem";
+    door.style.borderRadius = "0.5rem";
   } else {
     door.setAttribute("href", "#");
   }
