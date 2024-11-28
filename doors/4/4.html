@@ -1,52 +1,82 @@
 <!doctype html>
-<html lang="de-DE">
+<html lang="it-IT">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calendario 2023</title>
+    <title>Calendario dell'avvento 2024</title>
     <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="4.css" />
+    <link rel="stylesheet" href="../doors.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
   </head>
   <body>
-    <div class="content">
+    <div class="container">
+      <a href="./../../index.html" class="contrast" id="backHome"
+        >Torna alla homepage</a
+      >
+      <!--      CHANGE DAY-->
       <h1>Giorno 4</h1>
-      <p>Avanti con la prossima!</p>
-      <div class="thema">Matematica</div>
-
-      <form>
+      <p>Se ti serve aiuto oggi abbiamo dei consigli!</p>
+      <details>
+        <summary>Consigli</summary>
         <p>
-          Risolvi $\frac {1}{x-4} + \frac {x}{x^2-16} = \frac {12}{(x+4)(x-4)}$
+          Nella geometria analitica si lavora nel piano cartesiano. Nel piano si
+          possono disegnare figure geometriche utilizzando funzioni. Ecco
+          qualche esempio utile:
         </p>
-        <div>
-          <label for="1"
-            ><input type="radio" name="land" id="1" value="1" />-4</label
-          >
-        </div>
-        <div>
-          <label for="2"
-            ><input
-              type="radio"
-              name="land"
-              id="2"
-              value="2"
-            />Impossibile</label
-          >
-        </div>
-        <div>
-          <label for="3"
-            ><input type="radio" name="land" id="3" value="3" />2</label
-          >
-        </div>
-        <div>
-          <label for="4"
-            ><input type="radio" name="land" id="4" value="4" />4</label
-          >
-        </div>
-      </form>
-      <button>Conferma</button>
+        <ul>
+          <li>
+            Una funzione del tipo $y = k$ definisce una retta parallela all'asse
+            x. La costante $k$ definisce il punto d'intersezione tra la retta e
+            l'asse y.
+          </li>
+          <li>
+            Una funzione del tipo $x = k$ definisce una retta parallela all'asse
+            y. La costante $k$ definisce il punto d'intersezione tra la retta e
+            l'asse x.
+          </li>
+        </ul>
+      </details>
+      <p>Ecco la domanda di oggi...</p>
+      <div class="wrapper">
+        <h4 class="thema">Matematica</h4>
+        <form>
+          <p>
+            Qual è il punto d'intersezione tra le rette $y = 10$ e $x = 3$ ?
+          </p>
+          <div>
+            <label for="1"
+              ><input type="radio" name="land" id="1" value="1" />$A(10;
+              3)$</label
+            >
+          </div>
+          <div>
+            <label for="2"
+              ><input type="radio" name="land" id="2" value="2" />$B(13;
+              0)$</label
+            >
+          </div>
+          <div>
+            <label for="3"
+              ><input type="radio" name="land" id="3" value="3" />$C(0;
+              13)$</label
+            >
+          </div>
+          <div>
+            <label for="4"
+              ><input type="radio" name="land" id="4" value="4" />$D(3;
+              10)$</label
+            >
+          </div>
+        </form>
+        <button id="button">Bestätigen</button>
+      </div>
     </div>
 
-    <script src="4.js"></script>
+    <!--    CHANGE JS LINK-->
+    <script src="4.js" type="module"></script>
     <script>
       MathJax = {
         tex: {

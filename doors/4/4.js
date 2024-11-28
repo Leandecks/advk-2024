@@ -1,20 +1,12 @@
-"use strict";
-console.log("JS Started");
+import validateIt from "../doors_it";
+import img from "../cartesian.png";
+import addImage from "../addImage";
 
-const submit = document.querySelector('button');
-const content = document.querySelector('.content');
-const display = document.createElement("p");
+const container = document.querySelector(".container");
+const btn = document.getElementById("button");
 
-submit.addEventListener("click", () => {
-  if (document.getElementById("2").checked) {
-    display.textContent = "Giusto!";
-    display.style.color = "green";
-    display.style.marginBottom = ".5rem";
-    content.appendChild(display);
-  } else {
-    display.textContent = "Sbagliato!";
-    display.style.color = "red";
-    display.style.marginBottom = ".5rem";
-    content.append(display);
-  }
-});
+const letter = "v";
+const id = "4";
+
+validateIt(id, letter, "", container, btn);
+addImage(btn, container, img);
