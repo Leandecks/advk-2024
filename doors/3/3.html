@@ -16,10 +16,11 @@
       <a href="./../../index.html" class="contrast" id="backHome"
         >Zurück zur Homepage</a
       >
-      <h1>Türchen 3</h1>
-      <p>Im heutigen Rätsel geht's um...</p>
+      <!--      CHANGE DAY-->
+      <h1>Türchen 1</h1>
+      <p>Auf zur heutigen Frage...</p>
       <div class="wrapper">
-        <h4 class="thema">Geographie</h4>
+        <h4 class="thema">Mathe</h4>
 
         <form>
           <p>An wie viele Länder grenzt Deutschland?</p>
@@ -49,6 +50,21 @@
     </div>
 
     <!--    CHANGE JS LINK-->
-    <script src="1.js"></script>
+    <script src="1.js" type="module"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+        },
+      };
+    </script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
   </body>
 </html>

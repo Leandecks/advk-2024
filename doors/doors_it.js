@@ -1,4 +1,4 @@
-function validateDe(
+function validateIt(
   correctAnswerId,
   dailyLetter,
   dailyInfo,
@@ -25,23 +25,25 @@ function validateDe(
     if (correct.checked) {
       correct.parentElement.style.background = "#2a7b6f";
 
-      text.textContent = "Richtige Antwort!";
+      text.textContent = "Risposta corretta!";
       correct.parentElement.appendChild(text);
 
-      letterEl.textContent = `Herzlichen Glückwunsch, du hast das Rätsel gelöst! ${info} Der heutige Buchstabe ist "${letter}".`;
+      letterEl.textContent = `Congrutalulazioni, hai risolto il quiz! ${info} La lettera di oggi è "${letter}".`;
       letterEl.style.backgroundColor = "#2a7b6f";
       container.appendChild(letterEl);
     } else {
       correct.parentElement.style.background = "#964a50";
 
-      text.textContent = "...wäre korrekt gewesen!";
+      text.textContent = "...sarebbe stato corretto!";
       correct.parentElement.appendChild(text);
 
-      letterEl.textContent = `Leider konntest du das heutige Rätsel nicht lösen! ${info} Behalte im Kopf dass man das finale Lösungswort auch ohne jeden einzelnen Buchstaben finden kann!`;
+      letterEl.textContent = `Purtroppo oggi non ce l'hai fatta a risolvere il quiz! ${info} Ricordati che puoi indovinare la parola finale anche senza risolvere ogni singolo quiz...`;
+      letterEl.style.backgroundColor = "#964a50";
+
       letterEl.style.backgroundColor = "#964a50";
       container.appendChild(letterEl);
     }
   });
 }
 
-export default validateDe;
+export default validateIt;
