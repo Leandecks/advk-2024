@@ -1,10 +1,21 @@
 import validateDe from "../doors_de";
+import img from "./cartesian.png";
 
 const container = document.querySelector(".container");
 const btn = document.getElementById("button");
 
-const letter = "Hy";
-const id = "9";
-const info = `Deutschland grenzt an die Schweiz, Österreich, Tscheschien, Polen, Dänemark, die Niederlande, Belgien, Luxemburg und Frankreich.`;
+const letter = "v";
+const id = "4";
 
-validateDe(id, letter, info, container, btn);
+validateDe(id, letter, "", container, btn);
+
+btn.addEventListener("click", () => {
+  if (document.querySelector("#cartesian")) {
+    document.querySelector("#cartesian").remove();
+  }
+  const image = document.createElement("img");
+  image.id = "cartesian";
+  image.src = img;
+  image.style.marginTop = "0.5rem";
+  container.appendChild(image);
+});

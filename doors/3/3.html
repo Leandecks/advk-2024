@@ -17,31 +17,58 @@
         >Zurück zur Homepage</a
       >
       <!--      CHANGE DAY-->
-      <h1>Türchen 1</h1>
+      <h1>Türchen 3</h1>
+      <p>Falls du Hilfe braucht kannst du heute Tipps bekommen!</p>
+      <details>
+        <summary>Tipps</summary>
+        <p>
+          In der Analytischen Geometrie arbeitet man in der Kartesischen Ebene.
+          In dieser kann man unterschiedliche geometrische Formen durch
+          Funktionen definieren. Hier Zwei eventuell nützliche Beispiele:
+        </p>
+        <ul>
+          <li>
+            Eine Funktion des Typs $y = k$ definiert eine unendliche Gerade die
+            Parallel der x-Achse verläuft. Die Konstante $k$ definiert den Punkt
+            wo diese Gerade die y-Achse berührt.
+          </li>
+          <li>
+            Eine Funktion des Typs $x = k$ definiert eine unendliche Gerade die
+            Parallel der y-Achse verläuft. Die Konstante $k$ definiert den Punkt
+            wo diese Gerade die x-Achse berührt.
+          </li>
+        </ul>
+      </details>
       <p>Auf zur heutigen Frage...</p>
       <div class="wrapper">
         <h4 class="thema">Mathe</h4>
-
         <form>
-          <p>An wie viele Länder grenzt Deutschland?</p>
+          <p>
+            In welchem Punkt der Kartesischen Ebene berühren sich die Geraden $y
+            = 10$ und $x = 3$ ?
+          </p>
+          <div>
+            <label for="1"
+              ><input type="radio" name="land" id="1" value="1" />$A(10;
+              3)$</label
+            >
+          </div>
+          <div>
+            <label for="2"
+              ><input type="radio" name="land" id="2" value="2" />$B(13;
+              0)$</label
+            >
+          </div>
+          <div>
+            <label for="3"
+              ><input type="radio" name="land" id="3" value="3" />$C(0;
+              13)$</label
+            >
+          </div>
           <div>
             <label for="4"
-              ><input type="radio" name="land" id="4" value="4" />4</label
-            >
-          </div>
-          <div>
-            <label for="6"
-              ><input type="radio" name="land" id="6" value="6" />6</label
-            >
-          </div>
-          <div>
-            <label for="9"
-              ><input type="radio" name="land" id="9" value="9" />9</label
-            >
-          </div>
-          <div>
-            <label for="11"
-              ><input type="radio" name="land" id="11" value="11" />11</label
+              ><input type="radio" name="land" id="4" value="4" />$D(3;
+              10)$</label
             >
           </div>
         </form>
@@ -50,7 +77,7 @@
     </div>
 
     <!--    CHANGE JS LINK-->
-    <script src="1.js" type="module"></script>
+    <script src="3.js" type="module"></script>
     <script>
       MathJax = {
         tex: {
