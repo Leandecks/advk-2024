@@ -1,38 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de-DE">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adventskalender 2023</title>
-  <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="5.css">
-</head>
-<body>
-  
-  <div class="content">
-    <h1>Türchen 5</h1>
-    <p>Weiter geht's!</p>
-    <div class="thema">Biochemie</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adventskalender 2024</title>
+    <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../doors.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <a href="./../../index.html" class="contrast" id="backHome"
+        >Zurück zur Homepage</a
+      >
+      <!--      CHANGE DAY-->
+      <h1>Türchen 5</h1>
+      <p>Hmmmmm...</p>
+      <div class="wrapper">
+        <h4 class="thema">Anatomie</h4>
 
-    <form>
-      <p>Wähle alle Pentosen (Monosaccharide mit 5 Kohlenstoffatomen):</p>
-      <div><label for="1"><input type="checkbox" name="land" id="1" value="1">Glucose</label></div>
-      <div><label for="2"><input type="checkbox" name="land" id="2" value="2">Ribose</label></div>
-      <div><label for="3"><input type="checkbox" name="land" id="3" value="3">Fruktose</label></div>
-      <div><label for="4"><input type="checkbox" name="land" id="4" value="4">Desoxiribose</label></div>
-    </form>
-    <button>Bestätigen</button>
-  </div>
-  
-  <script src="5.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
-    };
-    </script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</body>
+        <form>
+          <p>
+            Die menschliche Atmung benutzt das Zwerchfell und die Muskelgruppe
+            der <i>Musculus intercostalis internus</i>. Durch welche Tätigkeit
+            wird eine weitere Muskelgruppe aktiviert?
+          </p>
+          <div>
+            <label for="1"
+              ><input type="radio" name="land" id="1" value="1" />Tiefe
+              Einatmung</label
+            >
+          </div>
+          <div>
+            <label for="2"
+              ><input type="radio" name="land" id="2" value="2" />Tiefe
+              Ausatmung</label
+            >
+          </div>
+          <div>
+            <label for="3"
+              ><input type="radio" name="land" id="3" value="3" />Schnelle
+              Atmung, während z.B. Sport</label
+            >
+          </div>
+          <div>
+            <label for="4"
+              ><input type="radio" name="land" id="4" value="4" />Ruckartige
+              Einatmung</label
+            >
+          </div>
+        </form>
+        <button id="button">Bestätigen</button>
+      </div>
+    </div>
+
+    <!--    CHANGE JS LINK-->
+    <script src="5.js" type="module"></script>
+  </body>
 </html>
