@@ -1,0 +1,1 @@
+import"../modulepreload-polyfill-B5Qt9EMX.js";/* empty css               */import{v as e}from"../doors_it-BXuhjVcb.js";import{a as n,i as m}from"../addImage-DQr-0Hip.js";const t=document.querySelector(".container"),o=document.getElementById("button"),r="v",a="4";e(a,r,"",t,o);n(o,t,m);

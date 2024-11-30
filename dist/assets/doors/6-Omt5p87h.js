@@ -1,0 +1,1 @@
+import"../modulepreload-polyfill-B5Qt9EMX.js";/* empty css               */import{v as t}from"../doors_it-BXuhjVcb.js";const n=document.querySelector(".container"),o=document.getElementById("button"),e="ä",i="2",r="Durante un'inspirazione profonda attiviamo anche i muscoli intercostali esterni.";t(i,e,r,n,o);

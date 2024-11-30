@@ -1,0 +1,1 @@
+import"../modulepreload-polyfill-B5Qt9EMX.js";/* empty css               */import{v as t}from"../doors_de-BQImKeSs.js";const e=document.querySelector(".container"),n=document.getElementById("button"),i="ä",o="2",r="Bei der tiefen Ausatmung wird zusätzlich die Muskelgruppe der Musculus intercostalis externus aktiviert.";t(o,i,r,e,n);
