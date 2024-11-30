@@ -28,7 +28,7 @@ function validateIt(
       text.textContent = "Risposta corretta!";
       correct.parentElement.appendChild(text);
 
-      letterEl.textContent = `Congrutalulazioni, hai risolto il quiz! ${info} La lettera di oggi è "${letter}".`;
+      letterEl.textContent = `Congratulazioni, hai risolto il quiz! ${info} La lettera di oggi è "${letter}".`;
       letterEl.style.backgroundColor = "#2a7b6f";
       container.appendChild(letterEl);
     } else {

@@ -1,20 +1,11 @@
-"use strict";
-console.log("JS Started");
+import validateIt from "../doors_it";
 
-const submit = document.querySelector('button');
-const content = document.querySelector('.content');
-const display = document.createElement("p");
+const container = document.querySelector(".container");
+const btn = document.getElementById("button");
 
-submit.addEventListener("click", () => {
-  if (document.getElementById("1").checked) {
-    display.textContent = "Giusto!";
-    display.style.color = "green";
-    display.style.marginBottom = ".5rem";
-    content.appendChild(display);
-  } else {
-    display.textContent = "Sbagliato!";
-    display.style.color = "red";
-    display.style.marginBottom = ".5rem";
-    content.append(display);
-  }
-});
+const letter = "ä";
+const id = "3";
+const info =
+  "La musica leggera nella grande maggioranza dei casi segue il ritmo tum-ta-tum-ta.";
+
+validateIt(id, letter, info, container, btn);
