@@ -1,9 +1,12 @@
+import { foundLettersIt, updateLettersIt } from "./foundLetters";
+
 function validateIt(
   correctAnswerId,
   dailyLetter,
   dailyInfo,
   containerElement,
   buttonElement,
+  day,
 ) {
   const container = containerElement;
   const btn = buttonElement;
@@ -31,6 +34,9 @@ function validateIt(
       letterEl.textContent = `Congratulazioni, hai risolto il quiz! ${info} La lettera di oggi è "${letter}".`;
       letterEl.style.backgroundColor = "#2a7b6f";
       container.appendChild(letterEl);
+
+      updateLettersIt(letter, day);
+      console.log(foundLettersIt);
     } else {
       correct.parentElement.style.background = "#964a50";
 

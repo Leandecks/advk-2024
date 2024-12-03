@@ -8,4 +8,4 @@ const id = "3";
 const info =
   "La musica leggera nella grande maggioranza dei casi segue il ritmo tum-ta-tum-ta.";
 
-validateIt(id, letter, info, container, btn);
+validateIt(id, letter, info, container, btn, 8);

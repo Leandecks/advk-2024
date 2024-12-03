@@ -8,4 +8,4 @@ const id = "2";
 const info =
   "Bei der tiefen Ausatmung wird zusätzlich die Muskelgruppe der Musculus intercostalis externus aktiviert.";
 
-validateDe(id, letter, info, container, btn);
+validateDe(id, letter, info, container, btn, 5);

@@ -7,4 +7,4 @@ const letter = "Hy";
 const id = "9";
 const info = `Deutschland grenzt an die Schweiz, Österreich, Tscheschien, Polen, Dänemark, die Niederlande, Belgien, Luxemburg und Frankreich.`;
 
-validateDe(id, letter, info, container, btn);
+validateDe(id, letter, info, container, btn, 1);

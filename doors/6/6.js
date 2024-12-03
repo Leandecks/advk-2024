@@ -8,4 +8,4 @@ const id = "2";
 const info =
   "Durante un'inspirazione profonda attiviamo anche i muscoli intercostali esterni.";
 
-validateIt(id, letter, info, container, btn);
+validateIt(id, letter, info, container, btn, 6);

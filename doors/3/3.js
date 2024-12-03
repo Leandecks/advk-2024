@@ -8,5 +8,5 @@ const btn = document.getElementById("button");
 const letter = "v";
 const id = "4";
 
-validateDe(id, letter, "", container, btn);
+validateDe(id, letter, "", container, btn, 3);
 addImage(btn, container, img);

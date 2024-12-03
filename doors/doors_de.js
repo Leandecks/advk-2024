@@ -1,9 +1,12 @@
+import { foundLettersDe, updateLettersDe } from "./foundLetters";
+
 function validateDe(
   correctAnswerId,
   dailyLetter,
   dailyInfo,
   containerElement,
   buttonElement,
+  day,
 ) {
   const container = containerElement;
   const btn = buttonElement;
@@ -31,6 +34,8 @@ function validateDe(
       letterEl.textContent = `Herzlichen Glückwunsch, du hast das Rätsel gelöst! ${info} Der heutige Buchstabe ist "${letter}".`;
       letterEl.style.backgroundColor = "#2a7b6f";
       container.appendChild(letterEl);
+
+      updateLettersDe(letter, day);
     } else {
       correct.parentElement.style.background = "#964a50";
 

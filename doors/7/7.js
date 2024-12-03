@@ -7,4 +7,4 @@ const letter = "ä";
 const id = "3";
 const info = "Die Popmusik folgt meist dem Rhytmus tum-ta-tum-ta.";
 
-validateDe(id, letter, info, container, btn);
+validateDe(id, letter, info, container, btn, 7);

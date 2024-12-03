@@ -1,5 +1,3 @@
-"use strict";
-
 const doors = document.querySelectorAll(".door-link");
 const today = new Date().getDate();
 const COLOR = "#c2c7d0";
