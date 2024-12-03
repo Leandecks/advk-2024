@@ -1,1 +1,0 @@
-import"../modulepreload-polyfill-B5Qt9EMX.js";/* empty css               */import{v as e}from"../doors_de-BQImKeSs.js";const n=document.querySelector(".container"),t=document.getElementById("button"),o="Hy",r="9",c="Deutschland grenzt an die Schweiz, Österreich, Tscheschien, Polen, Dänemark, die Niederlande, Belgien, Luxemburg und Frankreich.";e(r,o,c,n,t);

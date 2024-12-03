@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";const e=document.querySelectorAll(".door-link"),o=new Date().getDate(),c="#c2c7d0",s="#161b25";e.forEach(t=>{t.textContent<=o?(t.style.color=s,t.style.backgroundColor=c,t.style.borderRadius="0.5rem"):t.setAttribute("href","#")});

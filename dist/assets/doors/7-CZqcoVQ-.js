@@ -1,1 +1,0 @@
-import"../modulepreload-polyfill-B5Qt9EMX.js";/* empty css               */import{v as t}from"../doors_de-BQImKeSs.js";const o=document.querySelector(".container"),e=document.getElementById("button"),n="ä",m="3",i="Die Popmusik folgt meist dem Rhytmus tum-ta-tum-ta.";t(m,n,i,o,e);
