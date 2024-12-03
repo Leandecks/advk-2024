@@ -1,4 +1,4 @@
-import { foundLettersIt, updateLettersIt } from "./foundLetters";
+import { updateLettersIt } from "./foundLetters";
 
 function validateIt(
   correctAnswerId,
@@ -36,7 +36,6 @@ function validateIt(
       container.appendChild(letterEl);
 
       updateLettersIt(letter, day);
-      console.log(foundLettersIt);
     } else {
       correct.parentElement.style.background = "#964a50";
 

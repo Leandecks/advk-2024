@@ -18,20 +18,16 @@ function createEmptyLetters() {
 
 function checkForEmptyArrayDe() {
   if (!getLettersDe()) {
-    console.log("Getting new letter set");
     reloadLettersDe(createEmptyLetters());
   } else {
-    console.log("Getting old letter set");
     reloadLettersDe(getLettersDe());
   }
 }
 
 function checkForEmptyArrayIt() {
   if (!getLettersIt()) {
-    console.log("Getting new letter set");
     reloadLettersIt(createEmptyLetters());
   } else {
-    console.log("Getting old letter set");
     reloadLettersIt(getLettersDe());
   }
 }
@@ -41,12 +37,8 @@ function insertElementInArray(index, element, array) {
 }
 
 function updateLettersDe(letter, day) {
-  console.log(foundLettersDe);
   checkForEmptyArrayDe();
-  console.log(foundLettersDe);
   insertElementInArray((day - 1) / 2, letter, foundLettersDe);
-
-  console.log(foundLettersDe);
   saveLettersDe(foundLettersDe);
 }
 
