@@ -1,20 +1,11 @@
-"use strict";
-console.log("JS Started");
+import validateDe from "../doors_de";
 
-const submit = document.querySelector('button');
-const content = document.querySelector('.content');
-const display = document.createElement("p");
+const container = document.querySelector(".container");
+const btn = document.getElementById("button");
 
-submit.addEventListener("click", () => {
-  if (document.getElementById("3").checked) {
-    display.textContent = "Korrekt!";
-    display.style.color = "green";
-    display.style.marginBottom = ".5rem";
-    content.appendChild(display);
-  } else {
-    display.textContent = "Falsch!";
-    display.style.color = "red";
-    display.style.marginBottom = ".5rem";
-    content.append(display);
-  }
-});
+const letter = "[Leerzeichen]";
+const id = "3";
+const info =
+  'Der Satz kann mit "Ich lese dieses Buch zuhause." übersetzt werden. Demnach werden der Nominativ (Я), der Akkusativ (эту книгу) und der Präpositiv (дома) benutzt.';
+
+validateDe(id, letter, info, container, btn, 7);
