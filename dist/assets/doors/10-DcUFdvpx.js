@@ -1,0 +1,1 @@
+import"../saving-dRy0D6rM.js";import"../foundLetters-C8hbrHsr.js";import{v as o}from"../doors_it-cpHv46BM.js";const t=document.querySelector(".container"),n=document.getElementById("button"),e="[Spazio]",r="1",c="Il russo forma il futuro con il futuro di essere e non con la parola 'futuro'.";o(r,e,c,t,n,8);
