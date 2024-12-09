@@ -1,0 +1,1 @@
+import"../saving-dRy0D6rM.js";import"../foundLetters-C8hbrHsr.js";import{v as t}from"../doors_de-46ngKteE.js";const n=document.querySelector(".container"),e=document.getElementById("button"),o="J",c="4",i="Nichts kann den Block aufhalten, wenn es keine Reibung gibt.";t(c,o,i,n,e,7);
