@@ -1,1 +1,0 @@
-const c="/advk-2024/assets/cartesian-Dwkptp29.png";function m(a,t,i){a.addEventListener("click",()=>{document.querySelector("#image")&&document.querySelector("#image").remove();const e=document.createElement("img");e.style.display="block",e.id="image",e.src=i,e.style.marginTop="0.5rem",t.appendChild(e)})}export{m as a,c as i};
