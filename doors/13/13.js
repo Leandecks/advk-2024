@@ -11,4 +11,4 @@ const info =
   "Kotlin ist ein modernes Java. " +
   "HTML, CSS und JavaScript sind die 3 Hauptsprachen des Internets.";
 
-validateDe(id, letter, info, container, btn, 7);
+validateDe(id, letter, info, container, btn, 13);

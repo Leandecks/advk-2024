@@ -7,4 +7,4 @@ const letter = "J";
 const id = "4";
 const info = "Il blocco non ha ostacoli se non ci sono attriti.";
 
-validateIt(id, letter, info, container, btn, 8);
+validateIt(id, letter, info, container, btn, 12);

@@ -7,4 +7,4 @@ const letter = "J";
 const id = "4";
 const info = "Nichts kann den Block aufhalten, wenn es keine Reibung gibt.";
 
-validateDe(id, letter, info, container, btn, 7);
+validateDe(id, letter, info, container, btn, 11);
