@@ -1,38 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de-DE">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adventskalender 2023</title>
-  <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="15.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adventskalender 2024</title>
+  <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="../doors.css" />
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  />
 </head>
 <body>
-  
-  <div class="content">
-    <h1>Türchen 15</h1>
-    <p>Weiter geht's!</p>
-    <div class="thema">Schwedisch</div>
-
+<div class="container">
+  <a href="./../../index.html" class="contrast" id="backHome"
+  >Zurück zur Homepage</a
+  >
+  <!--      CHANGE DAY-->
+  <h1>Türchen 15</h1>
+  <p>Velkommen til Danmark!</p>
+  <div class="wrapper">
+    <h4 class="thema">Dansk (Dänisch)</h4>
     <form>
-      <p>Wie sagt man: "komisch"?<i></i></p>
-      <div><label for="1"><input type="radio" name="land" id="1" value="1">kanske</label></div>
-      <div><label for="2"><input type="radio" name="land" id="2" value="2">konstigt</label></div>
-      <div><label for="3"><input type="radio" name="land" id="3" value="3">roligt</label></div>
-      <div><label for="4"><input type="radio" name="land" id="4" value="4">kanelbulle</label></div>
+      <p>Hvordan siger man '...' på dansk?</p>
+      <p>Wie sagt man hallo auf Dänisch?</p>
+      <div>
+        <label for="1"
+        ><input type="radio" name="land" id="1" value="1" />Hej! [hej]</label
+        >
+      </div>
+      <div>
+        <label for="2"
+        ><input type="radio" name="land" id="2" value="2" />Hai! [hei]</label
+        >
+      </div>
+      <div>
+        <label for="3"
+        ><input type="radio" name="land" id="3" value="3" />Hej! [hai]</label
+        >
+      </div>
+      <div>
+        <label for="4"
+        ><input type="radio" name="land" id="4" value="4" />Hei! [hei]</label
+        >
+      </div>
     </form>
-    <button>Bestätigen</button>
+    <button id="button">Bestätigen</button>
   </div>
-  
-  <script src="15.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
-    };
-    </script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</div>
+
+<!--    CHANGE JS LINK-->
+<script src="15.js" type="module"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+    },
+  };
+</script>
+<script
+        id="MathJax-script"
+        async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
 </body>
 </html>
