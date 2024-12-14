@@ -10,8 +10,8 @@ Hyvää joulua!
 6) j
 7) o
 8) u
-9) -> l
-10) u
+9) l
+10) -> u
 11) a
 12) !
 - Add navbar with links to old year version
