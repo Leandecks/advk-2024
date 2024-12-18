@@ -1,20 +1,14 @@
-"use strict";
-console.log("JS Started");
+import validateDe from "../doors_de";
 
-const submit = document.querySelector('button');
-const content = document.querySelector('.content');
-const display = document.createElement("p");
+const container = document.querySelector(".container");
+const btn = document.getElementById("button");
 
-submit.addEventListener("click", () => {
-  if (document.getElementById("3").checked) {
-    display.textContent = "Korrekt!";
-    display.style.color = "green";
-    display.style.marginBottom = ".5rem";
-    content.appendChild(display);
-  } else {
-    display.textContent = "Falsch!";
-    display.style.color = "red";
-    display.style.marginBottom = ".5rem";
-    content.append(display);
-  }
-});
+const letter = "!";
+const id = "2";
+const info =
+  "'Hauska viikonloppua' bedeutet 'Gutes Wochenende'. " +
+  "'Hyvää päivää' bedeutet 'Guten Tag'. " +
+  "'Paljon onnea' bedeutet 'Herzlichen Glückwunsch'. ";
+const day = 23;
+
+validateDe(id, letter, info, container, btn, day);

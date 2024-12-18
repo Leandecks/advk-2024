@@ -1,20 +1,11 @@
-"use strict";
-console.log("JS Started");
+import validateDe from "../doors_de";
 
-const submit = document.querySelector('button');
-const content = document.querySelector('.content');
-const display = document.createElement("p");
+const container = document.querySelector(".container");
+const btn = document.getElementById("button");
 
-submit.addEventListener("click", () => {
-  if (document.getElementById("3").checked) {
-    display.textContent = "Korrekt!";
-    display.style.color = "green";
-    display.style.marginBottom = ".5rem";
-    content.appendChild(display);
-  } else {
-    display.textContent = "Falsch!";
-    display.style.color = "red";
-    display.style.marginBottom = ".5rem";
-    content.append(display);
-  }
-});
+const letter = "a";
+const id = "2";
+const info = "";
+const day = 21;
+
+validateDe(id, letter, info, container, btn, day);

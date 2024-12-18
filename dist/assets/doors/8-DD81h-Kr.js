@@ -1,1 +1,0 @@
-import"../saving-dRy0D6rM.js";import"../foundLetters-CmyvoFxs.js";import{v as t}from"../doors_it-DlLmd5Fj.js";const e=document.querySelector(".container"),n=document.getElementById("button"),o="ä",a="3",i="La musica leggera nella grande maggioranza dei casi segue il ritmo tum-ta-tum-ta.";t(a,o,i,e,n,8);

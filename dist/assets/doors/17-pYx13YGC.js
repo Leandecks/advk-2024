@@ -1,1 +1,0 @@
-import"../saving-dRy0D6rM.js";import"../foundLetters-CmyvoFxs.js";import{v as t}from"../doors_de-Cm6x-mRx.js";const o=document.querySelector(".container"),n=document.getElementById("button"),e="l",c="2",r="",i=17;t(c,e,r,o,n,i);

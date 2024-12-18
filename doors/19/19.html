@@ -1,40 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de-DE">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adventskalender 2023</title>
-  <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="19.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adventskalender 2024</title>
+  <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="../doors.css" />
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  />
 </head>
 <body>
-  
-  <div class="content">
-    <h1>Türchen 19</h1>
-    <p>Weiter geht's!</p>
-    <div class="thema">Klettern</div>
-
+<div class="container">
+  <a href="./../../index.html" class="contrast" id="backHome"
+  >Zurück zur Homepage</a
+  >
+  <!--      CHANGE DAY-->
+  <h1>Türchen 19</h1>
+  <p>🤓</p>
+  <div class="wrapper">
+    <h4 class="thema">Italienische Literatur</h4>
     <form>
-      <p>Wer ist der weltbeste Kletterer?<i></i></p>
-      <div><label for="1"><input type="radio" name="land" id="1" value="1">Alberto Ginés Lopez (ESP)</label></div>
-      <div><label for="2"><input type="radio" name="land" id="2" value="2">Adam Ondra (CZE)</label></div>
-      <div><label for="3"><input type="radio" name="land" id="3" value="3">Jakob Schubert (AUT)</label></div>
-      <div><label for="4"><input type="radio" name="land" id="4" value="4">Tomoa Narasaki (JPN)</label></div>
-      <div><label for="4"><input type="radio" name="land" id="4" value="4">Alexander Megos (GER)</label></div>
-      <div><label for="4"><input type="radio" name="land" id="4" value="4">Stefano Ghisolfi (ITA)</label></div>
+      <p>Welcher literarische Text fängt so an?</p>
+      <p>
+        Nel mezzo del cammin di nostra vita <br>
+        mi ritrovai per una selva oscura, <br>
+        ché la diritta via era smarrita.
+      </p>
+      <div>
+        <label for="1"
+        ><input type="radio" name="land" id="1" value="1" />Divina Commedia - Dante</label
+        >
+      </div>
+      <div>
+        <label for="2"
+        ><input type="radio" name="land" id="2" value="2" />Decameron - Boccaccio</label
+        >
+      </div>
+      <div>
+        <label for="3"
+        ><input type="radio" name="land" id="3" value="3" />Orlando Furioso - Ariosto</label
+        >
+      </div>
+      <div>
+        <label for="4"
+        ><input type="radio" name="land" id="4" value="4" />Vita Nova - Dante</label
+        >
+      </div>
     </form>
-    <button>Bestätigen</button>
+    <button id="button">Bestätigen</button>
   </div>
-  
-  <script src="19.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
-    };
-    </script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</div>
+
+<!--    CHANGE JS LINK-->
+<script src="19.js" type="module"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+    },
+  };
+</script>
+<script
+        id="MathJax-script"
+        async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
 </body>
 </html>
