@@ -1,0 +1,1 @@
+import"../saving-dRy0D6rM.js";import"../foundLetters-CmyvoFxs.js";import{v as t}from"../doors_it-DlLmd5Fj.js";const o=document.querySelector(".container"),n=document.getElementById("button"),c="u",e="1",i="Il Decamerone è di Boccaccio.",r=20;t(e,c,i,o,n,r);

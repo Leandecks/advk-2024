@@ -1,0 +1,1 @@
+import"../saving-dRy0D6rM.js";import"../foundLetters-CmyvoFxs.js";import{v as e}from"../doors_de-Cm6x-mRx.js";const t=document.querySelector(".container"),n=document.getElementById("button"),o="!",c="2",a="'Hauska viikonloppua' bedeutet 'Gutes Wochenende'. 'Hyvää päivää' bedeutet 'Guten Tag'. 'Paljon onnea' bedeutet 'Herzlichen Glückwunsch'. ",i=23;e(c,o,a,t,n,i);
