@@ -40,14 +40,23 @@ function colorDoors() {
   const today = new Date().getDate();
   const COLOR = "#c2c7d0";
   const BACKGROUND_COLOR = "#161b25";
+  console.log(new Date().getFullYear());
 
-  doors.forEach((door) => {
-    if (door.textContent <= today) {
+  if (new Date().getFullYear() <= 2024) {
+    doors.forEach((door) => {
+      if (door.textContent <= today) {
+        door.style.color = BACKGROUND_COLOR;
+        door.style.backgroundColor = COLOR;
+        door.style.borderRadius = "0.5rem";
+      } else {
+        door.setAttribute("href", "#");
+      }
+    });
+  } else {
+    doors.forEach((door) => {
       door.style.color = BACKGROUND_COLOR;
       door.style.backgroundColor = COLOR;
       door.style.borderRadius = "0.5rem";
-    } else {
-      door.setAttribute("href", "#");
-    }
-  });
+    });
+  }
 }
