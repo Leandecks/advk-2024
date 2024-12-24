@@ -38,9 +38,6 @@ function insertElementInArray(index, element, array) {
 
 function updateLettersDe(letter, day) {
   checkForEmptyArrayDe();
-  console.log(day);
-  console.log((day - 1) / 2);
-  console.log(foundLettersDe[(day - 1) / 2]);
   insertElementInArray((day - 1) / 2, letter, foundLettersDe);
   saveLettersDe(foundLettersDe);
 }

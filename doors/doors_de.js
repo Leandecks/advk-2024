@@ -1,4 +1,4 @@
-import { foundLettersDe, updateLettersDe } from "./foundLetters";
+import { updateLettersDe } from "./foundLetters";
 
 function validateDe(
   correctAnswerId,
