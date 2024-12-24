@@ -6,7 +6,7 @@ const btn = document.getElementById("button");
 const letter = "!";
 const id = "4";
 const info =
-  "'Hauska viikonloppua' bedeutet 'Gutes Wochenende'. " +
+  "'Hauska viikonloppua' bedeutet 'Schönes Wochenende'. " +
   "'Hyvää päivää' bedeutet 'Guten Tag'. " +
   "'Paljon onnea' bedeutet 'Herzlichen Glückwunsch'. ";
 const day = 23;
