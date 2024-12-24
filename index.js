@@ -40,7 +40,6 @@ function colorDoors() {
   const today = new Date().getDate();
   const COLOR = "#c2c7d0";
   const BACKGROUND_COLOR = "#161b25";
-  console.log(new Date().getFullYear());
 
   if (new Date().getFullYear() <= 2024) {
     doors.forEach((door) => {
