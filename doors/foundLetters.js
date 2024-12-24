@@ -28,7 +28,7 @@ function checkForEmptyArrayIt() {
   if (!getLettersIt()) {
     reloadLettersIt(createEmptyLetters());
   } else {
-    reloadLettersIt(getLettersDe());
+    reloadLettersIt(getLettersIt());
   }
 }
 
