@@ -1,0 +1,1 @@
+import"../saving-dRy0D6rM.js";import"../foundLetters-BMbvO3ZB.js";import{v as t}from"../doors_it-DGMr5K7i.js";const o=document.querySelector(".container"),n=document.getElementById("button"),e="a",c="2",r="",i=22;t(c,e,r,o,n,i);

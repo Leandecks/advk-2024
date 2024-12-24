@@ -1,0 +1,1 @@
+import"../saving-dRy0D6rM.js";import"../foundLetters-BMbvO3ZB.js";import{v as n}from"../doors_it-DGMr5K7i.js";const o=document.querySelector(".container"),t=document.getElementById("button"),i="!",a="4",e="'Hauska viikonloppua' significa 'Buon finesettimana'. 'Hyvää päivää' significa 'Buongiorno'. 'Paljon onnea' significa 'Tante congratulazioni'. ",c=24;n(a,i,e,o,t,c);
